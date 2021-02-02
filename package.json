@@ -1,0 +1,27 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M Umar Shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.2",
+    "body-parser": "^1.19.0",
+    "calibre": "^3.2.0",
+    "ebook-convert": "^2.0.1",
+    "epub-extract": "^1.0.20",
+    "express": "^4.17.1",
+    "gtts": "^0.2.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "pdf-parse": "^1.1.1",
+    "pdf-text-extract": "^1.5.0",
+    "pdf.js-extract": "^0.1.5"
+  }
+}
